@@ -1,5 +1,8 @@
 <?php
- function getPOST($servername, $username, $password, $nameDB){
-    return new mysqli($servername, $username, $password, $nameDB);
-}
+$db = array(
+    "servername" => "localhost",
+    "usermame" => "c190_salvo",
+    "pass" => "",
+    "nameDB" => "c190_primo"
+);
 ?>
